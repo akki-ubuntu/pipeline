@@ -1,0 +1,7 @@
+pipeline {
+       agent any
+
+       stage {
+            stage ('checkout'){
+              step{
+                   checkout scm
